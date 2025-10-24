@@ -1,0 +1,127 @@
+/*Temel*/
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif; /* C5, C6 */
+  font-weight: 400; /* C12 */
+  color: #1e1e1e; /* C8 */
+  line-height: 1.5; /* C10 */
+}
+
+/*Header*/
+.header a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:focus {
+  color: #434455; /* C3 */
+  outline: none;
+}
+
+/*Navigasyon*/
+.nav a {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500; /* miras alıyor */
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: #434455; /* C3 */
+}
+
+/*Adres*/
+.address a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Hero*/
+.hero {
+  background-color: #2e2f42; /* C11 */
+}
+
+.hero h1 {
+  font-weight: 700; /* C12 */
+  line-height: 3.75; /* C10 */
+  color: #ffffff; /* C11 */
+}
+
+/*Strateji*/
+.strategy h3 {
+  font-weight: 500; /* C12 */
+  line-height: 1.5; /* C10 */
+}
+
+.strategy p {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/*Takım*/
+.team {
+  background-color: #f4f4fd; /* C11 */
+}
+
+.team-li h3 {
+  font-weight: 500; /* C12 */
+  line-height: 1.5; /* C10 */
+  color: #2e2f42; /* C11 */
+}
+
+.team-li h3:hover,
+.team-li h3:focus {
+  color: #4d5ae5; /* C4 */
+}
+
+.team-li p {
+  font-weight: 400; /* C12 */
+  color: #434455; /* C11 */
+}
+
+/*Portfolio*/
+.portfolio h3 {
+  font-weight: 500; /* C12 */
+}
+
+.portfolio p {
+  font-weight: 400; /* C12 */
+}
+
+/*Button*/
+.button {
+  cursor: pointer; /* C13 */
+  font-family: inherit;
+  color: #ffffff;
+  background-color: #4d5ae5; /* C11 */
+  border: none;
+  padding: 0.5em 1em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #3c44c0;
+  outline: 2px solid #ffffff; /* odak için */
+}
+
+/*Footer*/
+.footer {
+  background-color: #2e2f42; /* C11 */
+  color: #ffffff; /* C11 */
+}
+
+.footer a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #ffffff; /* C11 */
+  text-decoration: none;
+}
+
+.span-1,
+.span-2 {
+  color: #4d5ae5; /* C11 */
+}
+
+/*sayfada raleway fontu 2 defa kullanıldığı için onları kullanılan yere verdim. Geri kalan roboto kullandı.*/
