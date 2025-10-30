@@ -8,8 +8,7 @@ body {
 }
 
 /*Header*/
-.header a,
-.footer a {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -65,12 +64,15 @@ body {
 h2 {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.111111111; /* C10 */
   color: #2e2f42;
 }
-/*Strateji*/
-.strategy h3 {
-  line-height: 1.5; /* C10 */
+
+.strategy li p,
+.portfolio li p,
+.team-li p,
+.footer p {
+  font-weight: 400;
 }
 
 h3 {
@@ -91,7 +93,7 @@ h3 {
 
 .team-li h3 {
   font-weight: 500; /* C12 */
-  line-height: 1.5; /* C10 */
+  line-height: 1.2; /* C10 */
   color: #2e2f42; /* C11 */
 }
 
@@ -114,15 +116,16 @@ h3 {
   cursor: pointer; /* C13 */
   font-family: inherit;
   color: #ffffff;
-  background-color: #4d5ae5; /* C11 */
+  background-color: rgba(77, 90, 229, 1); /* C11 */
   border: none;
   line-height: 1.5; /* C10 */
+  font-weight: 500;
 }
 
 .button:hover,
 .button:focus {
   background-color: #404bbf;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px 0px rgba(64, 75, 191, 1);
 }
 
 /*Footer*/
@@ -132,15 +135,13 @@ h3 {
 }
 
 .footer a {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  color: #ffffff; /* C11 */
+  color: #ffffff;
   text-decoration: none;
 }
 
 .span-1,
 .span-2 {
-  color: #4d5ae5; /* C11 */
+  color: rgba(77, 90, 229, 1); /* C11 */
 }
 
 .strategy li,
